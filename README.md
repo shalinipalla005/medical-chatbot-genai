@@ -64,7 +64,7 @@ medical-chatbot/
 ├── README.md                    # Project documentation
 │
 ├── create_memory_for_llm.py     # Loads PDFs, creates embeddings, saves FAISS index
-├── app.py (or chatbot.py)       # Streamlit chat interface
+├── medibot.py      # Streamlit chat interface
 │
 ├── vectorstore/                 # Saved FAISS vector database
 ├── data/                        # Folder for medical PDFs
@@ -79,7 +79,7 @@ medical-chatbot/
 ###  Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/medical-chatbot-genai.git
+git clone https://github.com/shalinipalla005/medical-chatbot-genai.git
 cd medical-chatbot-genai
 ````
 
