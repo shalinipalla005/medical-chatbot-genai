@@ -1,0 +1,73 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg
+*.egg-info/
+*.log
+
+# Virtual environment
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ---- Environment / API Keys ----
+# Do NOT upload sensitive API keys
+*.env
+.env.*
+.env.local
+
+# ---- Streamlit ----
+.streamlit/
+# Streamlit generated temp files
+.streamlit/secrets.toml
+# Cache data
+.streamlit/cache/
+.streamlit/static/
+
+# ---- FAISS Vector Database ----
+vectorstore/
+*.faiss
+*.npy
+*.index
+
+# ---- OS / Editor Specific ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Jupyter / Notebooks ----
+.ipynb_checkpoints/
+*.ipynb
+
+# ---- Build / Distribution ----
+build/
+dist/
+*.spec
+
+# ---- Misc ----
+*.bak
+*.tmp
+*.log
+*.out
+*.err
+*.sqlite
+*.db
+
+# ---- Hugging Face / LangChain Cache ----
+huggingface/
+hf_cache/
+langchain_cache/
+cache/
+transformers_cache/
+~$*
